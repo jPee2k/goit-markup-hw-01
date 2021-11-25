@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const pages = ['index.html'];
 const multipleHtmlPlugins = pages
   .map((templateName) => new HtmlWebpackPlugin({
-    filename: path.resolve(__dirname, `dist/${templateName}`),
+    filename: path.resolve(__dirname, `docs/${templateName}`),
     template: `src/${templateName}`,
   }));
 
@@ -15,11 +15,11 @@ module.exports = {
   entry: path.resolve(__dirname, 'src/js/index.js'),
   output: {
     filename: 'js/bundle.js',
-    path: path.resolve(__dirname, 'dist/'),
+    path: path.resolve(__dirname, 'docs/'),
     // clean: true,
   },
   devServer: {
-    contentBase: '../dist',
+    contentBase: '../docs',
     watchContentBase: true,
   },
   stats: {

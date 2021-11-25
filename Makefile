@@ -3,11 +3,11 @@ setup:
 	make build
 
 build:
-	rm -rf dist
+	rm -rf docs
 	NODE_ENV=production npx webpack
 
 build-dev:
-	rm -rf dist
+	rm -rf docs
 	NODE_ENV=development npx webpack
 
 watch:
