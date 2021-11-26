@@ -14,9 +14,9 @@
     <a class="logo" href="/" title="на главную страницу - WebStudio"><span class="logo__prefix">Web</span>Studio</a>
     <nav class="navigation">
       <ul class="navigation__list">
-        <li><a class="navigation__link" href="/" title="на главную страницу">Студия</a></li>
-        <li><a class="navigation__link" href="#" title="посмотреть наши работы">Портфолио</a></li>
-        <li><a class="navigation__link" href="#" title="связаться с нами">Контакты</a></li>
+        <li><a class="navigation__link" href="/" title="На главную страницу">Студия</a></li>
+        <li><a class="navigation__link" href="#" title="Посмотреть наши работы">Портфолио</a></li>
+        <li><a class="navigation__link" href="#" title="Связаться с нами">Контакты</a></li>
       </ul>
     </nav>
     <ul class="contacts">
@@ -27,45 +27,40 @@
 </header>
 
 <main class="main page__main">
-  <h1 class="visually-hidden">Все о Нас</h1>
-
-  <section class="banner">
-    <h2 class="visually-hidden">Наш конёк</h2>
-    <div class="container banner__container">
-      <p class="banner__title">Эффективные решения для вашего бизнеса</p>
-      <button class="button banner__button" type="button">Заказать услугу</button>
-    </div>
+  <section class="intro">
+    <h1 class="intro__title">Эффективные решения для вашего бизнеса</h1>
+    <button class="button intro__button" type="button">Заказать услугу</button>
   </section>
 
   <section class="advantages">
     <h2 class="visually-hidden">Преимущества</h2>
     <div class="container">
-      <dl class="advantages__list">
-        <div class="advantages__item">
-          <dt class="advantages__title">Внимание к деталям</dt>
-          <dd class="advantages__description">
+      <ul class="advantages__list">
+        <li class="advantages__item">
+          <h3 class="advantages__title">Внимание к деталям</h3>
+          <p class="advantages__description">
             Идейные соображения, а также начало повседневной работы по формированию позиции.
-          </dd>
-        </div>
-        <div class="advantages__item">
-          <dt class="advantages__title">Пунктуальность</dt>
-          <dd class="advantages__description">
+          </p>
+        </li>
+        <li class="advantages__item">
+          <h3 class="advantages__title">Пунктуальность</h3>
+          <p class="advantages__description">
             Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-          </dd>
-        </div>
-        <div class="advantages__item">
-          <dt class="advantages__title">Планирование</dt>
-          <dd class="advantages__description">
+          </p>
+        </li>
+        <li class="advantages__item">
+          <h3 class="advantages__title">Планирование</h3>
+          <p class="advantages__description">
             Равным образом консультация с широким активом в значительной степени обуславливает.
-          </dd>
-        </div>
-        <div class="advantages__item">
-          <dt class="advantages__title">Современные технологии</dt>
-          <dd class="advantages__description">
+          </p>
+        </li>
+        <li class="advantages__item">
+          <h3 class="advantages__title">Современные технологии</h3>
+          <p class="advantages__description">
             Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-          </dd>
-        </div>
-      </dl>
+          </p>
+        </li>
+      </ul>
     </div>
   </section>
 
@@ -73,19 +68,19 @@
     <div class="container">
       <h2 class="services__title">Чем мы занимаемся</h2>
       <ul class="services__list">
-        <li><a class="services__link" href="#">
-          <img class="services__img" width="370" src="./images/services/img.jpg" title="Десктопная разработка"
+        <li>
+          <img class="services__img" width="370" src="images/services/img.jpg" title="Десктопная разработка"
                alt="Специалист печатает код на клавиатуре в уютной обстановке">
-        </a></li>
-        <li><a class="services__link" href="#">
-          <img class="services__img" width="370" src="./images/services/img_2.jpg"
+        </li>
+        <li>
+          <img class="services__img" width="370" src="images/services/img_2.jpg"
                title="Разработка под мобильные платформы"
                alt="Специалист исследует адаптивность сайта на мобильном устройстве">
-        </a></li>
-        <li><a class="services__link" href="#">
-          <img class="services__img" width="370" src="./images/services/img_3.jpg" title="Дизайн любой сложности"
+        </li>
+        <li>
+          <img class="services__img" width="370" src="images/services/img_3.jpg" title="Дизайн любой сложности"
                alt="Скрупулезный выбор цвета для конкретных ситуаций">
-        </a></li>
+        </li>
       </ul>
     </div>
   </section>
@@ -95,27 +90,27 @@
       <h2 class="services__title">Наша команда</h2>
       <ul class="team__list">
         <li class="team__item card">
+          <img class="card__img" width="270" src="images/team/product_designer.jpg" title="Игорь Демьяненко"
+               alt="Продуктовый дизайнер">
           <h3 class="card__title">Игорь Демьяненко</h3>
           <p class="card__subtitle" lang="en">Product Designer</p>
-          <img class="card__img" width="270" src="./images/team/product_designer.jpg" title="Игорь Демьяненко"
-               alt="Продуктовый дизайнер">
         </li>
         <li class="team__item card">
+          <img class="card__img" width="270" src="images/team/frontend_developer.jpg" title="Ольга Репина"
+               alt="Фронтэнд разработчик">
           <h3 class="card__title">Ольга Репина</h3>
           <p class="card__subtitle" lang="en">Frontend Developer</p>
-          <img class="card__img" width="270" src="./images/team/frontend_developer.jpg" title="Ольга Репина"
-               alt="Фронтэнд разработчик">
         </li>
         <li class="team__item card">
+          <img class="card__img" width="270" src="images/team/marketing.jpg" title="Николай Тарасов" alt="Маркетолог">
           <h3 class="card__title">Николай Тарасов</h3>
           <p class="card__subtitle" lang="en">Marketing</p>
-          <img class="card__img" width="270" src="./images/team/marketing.jpg" title="Николай Тарасов" alt="Маркетолог">
         </li>
         <li class="team__item card">
+          <img class="card__img" width="270" src="images/team/ui_designer.jpg" title="Михаил Ермаков"
+               alt="Дизайнер интерфейсов">
           <h3 class="card__title">Михаил Ермаков</h3>
           <p class="card__subtitle" lang="en">UI Designer</p>
-          <img class="card__img" width="270" src="./images/team/ui_designer.jpg" title="Михаил Ермаков"
-               alt="Дизайнер интерфейсов">
         </li>
       </ul>
     </div>
@@ -126,9 +121,14 @@
   <div class="container">
     <a class="logo" href="/" title="на главную страницу - WebStudio"><span class="logo__prefix">Web</span>Studio</a>
     <address class="address">
-      <p class="address__main">г. Киев, пр-т Леси Украинки, 26</p>
-      <a class="contacts__link contacts__link--email" href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a class="contacts__link contacts__link--phone" href="tel:+380961111111">+38 096 111 11 11</a>
+      <ul class="address__list">
+        <li><a class="address__main"
+               href="https://www.google.com.ua/maps/ms?msid=218324961284362248250.0004ea06cd32ef222b213&msa=0"
+               target="_blank" rel="noopener noreferrer nofollow">г. Киев, пр-т Леси Украинки, 26</a>
+        </li>
+        <li><a class="contacts__link contacts__link--email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="contacts__link contacts__link--phone" href="tel:+380961111111">+38 096 111 11 11</a></li>
+      </ul>
     </address>
   </div>
 </footer>
